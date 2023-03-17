@@ -10,6 +10,7 @@ def build_heap(data):
     # try to achieve  O(n) and not O(n2)
     return swaps
 
+
 def heap(data, i ,swaps):
     garums = len(data)
     while i*2+1 < garums:
