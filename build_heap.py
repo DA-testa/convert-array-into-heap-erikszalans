@@ -52,7 +52,7 @@ def main():
         filename = input()
         with open(f"tests/{filename}") as f:
             n = int(f.readline())
-            data = list(map(int, input()))
+            data = list(map(int, f.readline().split))
 
 
 
@@ -70,7 +70,7 @@ def main():
     print(len(swaps))
     for i, j in swaps:
         print(i, j)
-        print(len(swaps))
+  
 
 
 if __name__ == "__main__":
