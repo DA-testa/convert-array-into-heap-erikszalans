@@ -51,9 +51,9 @@ def main():
     elif "F" in ievade:
 
         filename = input()
-        with open("tests/"+filename,'r' ) as f:
+        with open("tests/"+filename, 'r') as f:
             n = int(f.readline())
-            data = list(map(int, f.readline().split))
+            data = list(map(int, f.readline().split()))
 
 
 
